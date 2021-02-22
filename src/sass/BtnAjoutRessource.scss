@@ -1,11 +1,21 @@
 .BtnAjoutRessource{
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    background-color: rgba(0,0,0,0);
+    position:absolute;
+    bottom:30px;
+    right:30px;
+    background-color:rgba(0,0,0,0);
     border:none;
+    color:white;
     
-    &:hover{
-        cursor:pointer;
+    &:hover{cursor:pointer;}
+
+    .MuiFab-root{
+        background-color:#555;
+        
+        p{
+            color:white;
+            font-size:0.5em;
+            transition: color 0.4s;
+        }
+        &:hover p{color:#555;}
     }
 }

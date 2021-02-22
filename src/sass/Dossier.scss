@@ -1,24 +1,24 @@
 .Dossier{
     margin:10px;
-    width: fit-content;
-    list-style: none;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+    width:fit-content;
+    list-style:none;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:center;
     list-style:none;
     position:relative;
     
     .deplacer{
-        position: absolute;
+        position:absolute;
         display:flex;
-        top: 3%;
-        left: 3%;
+        top:3%;
+        left:3%;
         background-color:rgba(0,0,0,0.5);
         height:50px;
         width:50px;
         border-radius:50%;
         color:rgba(255,255,255,0.5);
-        justify-content: center;
+        justify-content:center;
         align-items:center;
 
         &:hover{cursor:pointer;}
@@ -31,16 +31,16 @@
         color:white;
 
         p{
-            padding-top: 20px;
-            font-size: 1.2em;
-            font-weight: 500;
+            padding-top:20px;
+            font-size:1.2em;
+            font-weight:500;
         }
     }
 
     button{
         color:white;
         position:absolute;
-        top: 85%;
+        top:85%;
         right:0;
         background-color:rgba(0,0,0,0);
         border:none;

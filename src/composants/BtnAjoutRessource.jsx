@@ -1,10 +1,10 @@
 import '../sass/BtnAjoutRessource.scss';
-import AddCircleIcon from '@material-ui/icons/AddCircle';
+import FAB from '@material-ui/core/FAB';
 
 export default function BtnAjoutRessource() {
   return (
     <button className="BtnAjoutRessource">
-      <AddCircleIcon style={{fontSize: 60,color:'#555'}} />
+      <FAB style={{fontSize: 60,color:'#555'}}><p>+</p></FAB>
     </button>
   );
 }
