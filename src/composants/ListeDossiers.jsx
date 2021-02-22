@@ -1,3 +1,4 @@
+import '../sass/ListeDossiers.scss';
 import dossTab from '../data/liste-dossiers.json';
 import Dossier from './Dossier';
 
@@ -6,7 +7,14 @@ export default function ListeDossiers() {
     <ul className="ListeDossiers">
       {
         dossTab.map( 
-          dossier =>  <li><Dossier key={dossier.id} {...dossier} /></li>
+          dossier =>  <li>
+                          <Dossier 
+                            id={dossier.id}
+                            titre={dossier.titre}
+                            couleur={dossier.couleur}
+                            dateMod={dossier.dateModif}
+                          />
+                      </li>
         )
       }
     </ul>
